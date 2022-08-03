@@ -1,0 +1,38 @@
+.card{
+    box-shadow: 0 4px 0 rgb(0, 255, 47);
+    transition: 0.3s;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgb(49, 46, 46);
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+img{
+    display: flex;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgb(31, 238, 58);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.gender {
+    margin: 10px;
+    font-size: 20px;
+}
+.loading-text{
+    text-align: center;
+}
+p{
+    color: white;
+}
+h4{
+    color: white;
+}
